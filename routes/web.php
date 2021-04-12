@@ -15,7 +15,7 @@ use \App\Http\Controllers\SearchController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Route::get('/', [IndexController::class, 'index'])->name('index');
 Route::get('/index', [IndexController::class, 'index'])->name('index');
 Route::get('/explanation', [IndexController::class, 'explanation'])->name('explanation');
 Route::get('/card/{slug}', [IndexController::class, 'getAnimalCard'])->name('getAnimalCard');
