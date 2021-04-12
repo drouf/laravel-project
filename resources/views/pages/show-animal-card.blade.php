@@ -12,11 +12,11 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-8 col-xs-12">
+                    <div class="col-md-8 col-sm-6 col-xs-12">
                         <img src="{{$animal->image_path}}" class="card-img-top" alt="...">
 
                     </div>
-                    <div class="col-md-4 col-xs-12">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
                         <table class="table table-hover" style="height: 100%">
                             @php
                                 $raws = array(
